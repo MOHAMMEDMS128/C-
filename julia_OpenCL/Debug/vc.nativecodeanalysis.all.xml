@@ -1,0 +1,1096 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+      <FILENAME>setup_cl.cpp</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'devices':  the readable size is 'numDevices*sizeof(_cl_device_id *)' bytes, but '8' bytes may be read.</DESCRIPTION>
+    <FUNCTION>createContext</FUNCTION>
+    <DECORATED>?createContext@@YAPAU_cl_context@@XZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>63</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>60</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>63</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>62</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>81</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'devices' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'devices' is an In/Out argument to 'clGetDeviceIDs' (declared at d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl\nvidia_cl\include\cl\cl.h:461)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>99</LINE>
+        <COLUMN>77</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>100</LINE>
+        <COLUMN>83</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>39</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'j' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'j&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'j' is an Output from 'clGetDeviceInfo' (declared at d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl\nvidia_cl\include\cl\cl.h:468)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'devices', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+      <FILENAME>setup_cl.cpp</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'platformName':  the readable size is 'resultSize' bytes, but '2' bytes may be read.</DESCRIPTION>
+    <FUNCTION>createContext</FUNCTION>
+    <DECORATED>?createContext@@YAPAU_cl_context@@XZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'platformName' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'platformName' is an In/Out argument to 'clGetPlatformInfo' (declared at d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl\nvidia_cl\include\cl\cl.h:453)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>63</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>60</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'platformName' is an In/Out argument to 'std::&lt;&lt;' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream:787)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>63</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>62</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>81</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'platformName' is an Input to 'strlen' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h:219)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'k&lt;strlen(platformName)')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>48</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'k' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'platformName' is an Input to 'strlen' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h:219)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'k&lt;strlen(platformName)')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'k' is an In/Out argument to 'std::toupper' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\locale:281)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'platformName', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+      <FILENAME>setup_cl.cpp</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'platformName':  the writable size is 'resultSize' bytes, but '2' bytes might be written.</DESCRIPTION>
+    <FUNCTION>createContext</FUNCTION>
+    <DECORATED>?createContext@@YAPAU_cl_context@@XZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'platformName' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'platformName' is an In/Out argument to 'clGetPlatformInfo' (declared at d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl\nvidia_cl\include\cl\cl.h:453)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>63</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>60</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'platformName' is an In/Out argument to 'std::&lt;&lt;' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream:787)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>63</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>62</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>81</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'platformName' is an Input to 'strlen' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h:219)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'k&lt;strlen(platformName)')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>48</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'k' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'platformName' is an Input to 'strlen' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h:219)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'k&lt;strlen(platformName)')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'k' is an In/Out argument to 'std::toupper' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\locale:281)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\uni\year 3\term 1\parallel &amp; distributed systems\assignment\julia_opencl</FILEPATH>
+        <FILENAME>setup_cl.cpp</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'platformName', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

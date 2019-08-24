@@ -1,0 +1,37 @@
+﻿  main.cpp
+d:\uni\year 3\term 1\parallel & distributed systems\assignment\julia_opencl\main.cpp(245): warning C4838: conversion from 'int' to 'size_t' requires a narrowing conversion
+d:\uni\year 3\term 1\parallel & distributed systems\assignment\julia_opencl\main.cpp(276): warning C4838: conversion from 'int' to 'size_t' requires a narrowing conversion
+d:\uni\year 3\term 1\parallel & distributed systems\assignment\julia_opencl\main.cpp(308): warning C4129: 'P': unrecognized character escape sequence
+d:\uni\year 3\term 1\parallel & distributed systems\assignment\julia_opencl\main.cpp(344): warning C4305: '=': truncation from 'int' to 'BYTE'
+d:\uni\year 3\term 1\parallel & distributed systems\assignment\julia_opencl\main.cpp(344): warning C4309: '=': truncation of constant value
+d:\uni\year 3\term 1\parallel & distributed systems\assignment\julia_opencl\main.cpp(345): warning C4305: '=': truncation from 'int' to 'BYTE'
+d:\uni\year 3\term 1\parallel & distributed systems\assignment\julia_opencl\main.cpp(345): warning C4309: '=': truncation of constant value
+d:\uni\year 3\term 1\parallel & distributed systems\assignment\julia_opencl\main.cpp(352): warning C4244: '=': conversion from 'float' to 'BYTE', possible loss of data
+main.obj : error LNK2001: unresolved external symbol _clCreateBuffer@24
+main.obj : error LNK2001: unresolved external symbol _clEnqueueNDRangeKernel@36
+main.obj : error LNK2001: unresolved external symbol _clEnqueueReadImage@44
+main.obj : error LNK2001: unresolved external symbol _clCreateCommandQueue@20
+main.obj : error LNK2001: unresolved external symbol _clWaitForEvents@8
+main.obj : error LNK2001: unresolved external symbol _clGetEventProfilingInfo@20
+main.obj : error LNK2001: unresolved external symbol _clCreateImage2D@36
+main.obj : error LNK2001: unresolved external symbol _clCreateKernel@12
+main.obj : error LNK2001: unresolved external symbol _clSetKernelArg@16
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall fipImage::convertTo24Bits(void)" (__imp_?convertTo24Bits@fipImage@@QAEHXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall fipImage::convertToType(enum FREE_IMAGE_TYPE,int)" (__imp_?convertToType@fipImage@@QAEHW4FREE_IMAGE_TYPE@@H@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: unsigned char * __thiscall fipImage::accessPixels(void)const " (__imp_?accessPixels@fipImage@@QBEPAEXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual int __thiscall fipImage::isValid(void)const " (__imp_?isValid@fipImage@@UBEHXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall fipImage::save(char const *,int)const " (__imp_?save@fipImage@@QBEHPBDH@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class fipImage & __thiscall fipImage::operator=(class fipImage const &)" (__imp_??4fipImage@@QAEAAV0@ABV0@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall fipImage::~fipImage(void)" (__imp_??1fipImage@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall fipImage::fipImage(enum FREE_IMAGE_TYPE,unsigned int,unsigned int,unsigned int)" (__imp_??0fipImage@@QAE@W4FREE_IMAGE_TYPE@@III@Z)
+setup_cl.obj : error LNK2001: unresolved external symbol _clBuildProgram@24
+setup_cl.obj : error LNK2001: unresolved external symbol _clReleaseProgram@4
+setup_cl.obj : error LNK2001: unresolved external symbol _clCreateContextFromType@24
+setup_cl.obj : error LNK2001: unresolved external symbol _clGetDeviceIDs@24
+setup_cl.obj : error LNK2001: unresolved external symbol _clGetContextInfo@20
+setup_cl.obj : error LNK2001: unresolved external symbol _clGetPlatformIDs@12
+setup_cl.obj : error LNK2001: unresolved external symbol _clGetPlatformInfo@20
+setup_cl.obj : error LNK2001: unresolved external symbol _clGetDeviceInfo@20
+setup_cl.obj : error LNK2001: unresolved external symbol _clGetProgramBuildInfo@24
+setup_cl.obj : error LNK2001: unresolved external symbol _clCreateProgramWithSource@20
+D:\UNI\YEAR 3\TERM 1\Parallel & Distributed Systems\ASSIGNMENT\julia_OpenCL\Release\juliaOpencl.exe : fatal error LNK1120: 27 unresolved externals

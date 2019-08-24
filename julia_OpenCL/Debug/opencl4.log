@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (opencl4.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+c:\julia set\julia_opencl\main.cpp(231): warning C4838: conversion from 'int' to 'size_t' requires a narrowing conversion
+c:\julia set\julia_opencl\main.cpp(262): warning C4838: conversion from 'int' to 'size_t' requires a narrowing conversion
+c:\julia set\julia_opencl\main.cpp(143): warning C4101: 'c_componentBuffer': unreferenced local variable
+c:\julia set\julia_opencl\main.cpp(290): warning C4129: 'P': unrecognized character escape sequence
+  setup_cl.cpp
+  Generating Code...
+  opencl4.vcxproj -> C:\Julia Set\julia_OpenCL\Debug\juliaOpencl.exe

@@ -1,0 +1,10 @@
+﻿  TBB_example02.cpp
+c:\julia set\sequential version\tbb_example02\tbb_example02.cpp(41): warning C4018: '<': signed/unsigned mismatch
+c:\julia set\sequential version\tbb_example02\tbb_example02.cpp(45): warning C4018: '<': signed/unsigned mismatch
+c:\julia set\sequential version\tbb_example02\tbb_example02.cpp(52): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  0 of 47 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  TBB_example02.vcxproj -> C:\Julia Set\sequential version\Release\TBB_example02.exe
